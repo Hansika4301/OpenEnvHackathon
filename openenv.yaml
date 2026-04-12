@@ -1,0 +1,14 @@
+name: task_scheduler_env
+
+entry_point: env.environment:TaskEnv
+
+tasks:
+  - name: easy
+  - name: medium
+  - name: hard
+
+observation_space:
+  type: dict
+
+action_space:
+  type: discrete
